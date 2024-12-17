@@ -1,0 +1,17 @@
+email_existente = "Leonardo.lobato@gmail.com"
+senha_existente = "Senha12345"
+
+email_usuario = " "
+senha_usuario = " "
+
+while email_usuario != email_existente or senha_usuario != senha_existente:
+    print("Login-> ")
+    email_usuario = input("Digite o seu email: ")
+    senha_usuario = input("Digite a sua senha: ")
+    
+    if email_usuario == email_existente and senha_usuario == senha_existente:
+        print("Login Bem-Sucedido!")
+    else:
+        print("Email ou Senha incorretos.")
+
+print("Bem-vindo ao sistema!")
